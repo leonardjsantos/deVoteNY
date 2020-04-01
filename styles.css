@@ -1,9 +1,3 @@
-
-/* teal - #255d5d */
-/* purple - #312261 */
-
-/* cell phone */
-
 *{
   padding: 0;
   margin: 0;
@@ -134,6 +128,25 @@ header img{
   color: black;
 }
 
+.actButtonLink{
+  text-decoration: none;
+}
+
+.actButton{
+  float: right;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.actButton:hover{
+  background-color: black;
+  color: white;
+}
+
 .index_subsubtitle{
   font-size: 35px;
   text-align: center;
@@ -163,6 +176,86 @@ footer{
   width: 80%;
   text-align: right;
   line-height: 200%;
+}
+
+/* act page */
+
+.act_subheader{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: block;
+}
+
+.act_subheader h2{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 150%;
+  margin-bottom: 2%;
+
+}
+
+.act_subheader p{
+  color: black;
+  line-height: 150%;
+}
+
+.act_subtitle{
+  color: white;
+  font-size: 80px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.act_section{
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+
+.act_section h3{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+.act_section h4{
+  color: white;
+  margin-bottom: 2%;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.act_section p{
+  line-height: 150%;
+  color: black;
+}
+.find_left{
+  float: left;
+  width: 40%;
+}
+.find_right{
+  float: right;
+  width: 50%;
+}
+
+.act_findFrame{
+  width: 100%;
+  height:300px;
+}
+
+.actScript{
+  margin: 5%;
+  padding: 2%;
+  border: 5px solid black;
+  background-color: white;
+}
+
+.actScript p{
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 800px) {
