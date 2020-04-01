@@ -3,18 +3,39 @@
 /* purple - #312261 */
 
 /* cell phone */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 html{
   margin: 0;
 }
+
+body > * {
+  flex-shrink: 0;
+}
+
 body {
-  background-color: #bec5d9;
   margin: 0;
   font-family: 'Inter', sans-serif;
+
+
 }
 .top{
   display: block;
   width: 100%;
   overflow: hidden;
+  vertical-align: middle;
+  background-color: #f0f0f0;
+  border-bottom: 5px solid black;
 }
 
 header{
@@ -22,16 +43,22 @@ header{
   overflow: hidden;
   float: left;
   display: block;
-  width: 50%;
+  width: 30%;
 }
 
 header img{
   width: 100%;
 }
 
+.center{
+  padding: 70px 0;
+  /* border: 3px solid green; */
+  text-align: center;
+}
 .nav{
   overflow: hidden;
-  margin: 1%;
+  /* margin: 1%; */
+  /* border: 1px solid red; */
 }
 
 .nav ul{
@@ -45,27 +72,97 @@ header img{
 
 .nav li{
   float: left;
+  background-color: #4e078c;
+  color: white;
   font-size: 30px;
-  width: 150px;
-  margin: 7px;
+  width: 22%;
+  margin-left: 10px;
   height: 40px;
   vertical-align: middle;
   text-align: center;
   border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .nav li:hover{
   background-color: white;
+  color: black;
 }
 
 .main{
   font-family: 'Inter', sans-serif;
   display: block;
   overflow: hidden;
-  margin-top: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
+  /* text-align: center; */
+  background: url("data/graphics/background_image.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  flex-grow: 1;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
+.index_subtitle{
+  font-size: 100px;
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
+}
+
+.index_text{
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+  line-height: 150%;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+#weAre_text{
+  padding-left: 20%;
+  text-align: right;
+}
+
+#weBelieve{
+  text-align: right;
+}
+
+#weBelieve_text{
+  color: black;
+}
+
+.index_subsubtitle{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+footer{
+  display: block;
+  /* width: 100%; */
+  background-color: #f0f0f0;
+  border-top: 5px solid black;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.socialMedia_logos{
+  float: left;
+  width: 20%;
+}
+
+.footer_info{
+  padding-top: 2%;
+  float: left;
+  width: 80%;
+  text-align: right;
+  line-height: 200%;
 }
 
 @media screen and (max-width: 800px) {
