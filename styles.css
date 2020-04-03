@@ -440,6 +440,77 @@ footer{
   padding: 20px;
 }
 
+.resourcesMain{
+  width: auto;
+  display: block;
+  overflow: hidden;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.column3 {
+  float: left;
+  width: 32%;
+  padding: 10px;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column3 a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+
+
+}
+
+.column3 p{
+  overflow: hidden;
+  border: 2px solid black;
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.column3 p:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+
+.resources_section{
+  display: block;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  border-bottom: 0.5px solid grey;
+}
+
+.organization_links{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.organization_logo{
+  width: 20%;
+  padding: 2%;
+}
+
+.resourcesSection3 ul{
+    background-color: blue;
+}
+
+.resourcesSection3 li{
+  list-style-position: inside;
+  color: white;
+}
+
 @media screen and (max-width: 800px) {
   body{
     margin: 0;
