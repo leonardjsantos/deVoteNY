@@ -452,8 +452,9 @@ footer{
 
 .column3 {
   float: left;
-  width: 32%;
+  width: 30%;
   padding: 10px;
+  margin: 5px;
 }
 
 .row3:after {
@@ -466,8 +467,10 @@ footer{
   text-decoration: none;
   color: black;
   text-align: center;
+}
 
-
+#ppflyer{
+  width: 100%;
 }
 
 .column3 p{
