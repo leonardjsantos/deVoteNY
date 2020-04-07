@@ -109,7 +109,8 @@ header img{
 
 .index_text{
   font-size: 20px;
-  color: rgba(255,255,255,1);
+  /* color: rgba(255,255,255,1); */
+  color: black;
   line-height: 150%;
   font-weight: 1000;
   margin-bottom: 20px;
@@ -118,14 +119,20 @@ header img{
 #weAre_text{
   padding-left: 20%;
   text-align: right;
+  /* padding-bottom: 5%; */
+  color: black;
+
+  /* border-bottom: 1px solid white; */
 }
 
-#weBelieve{
+#{
   text-align: right;
 }
 
-#weBelieve_text{
+#_text{
   color: black;
+  /* padding-bottom: 5%; */
+  /* border-bottom: 1px solid white; */
 }
 
 .actButtonLink{
@@ -150,7 +157,8 @@ header img{
 .index_subsubtitle{
   font-size: 35px;
   text-align: center;
-  color: white;
+  /* color: white; */
+  color: black;
   font-weight: bolder;
   margin-bottom: 10px;
 }
@@ -260,9 +268,13 @@ footer{
 
 /* about page */
 
+.about_introText{
+  font-size: 50px;
+}
+
 .about_main{
-  background-color: white;
-  background-image: none;
+  /* background-color: white; */
+  /* background-image: none; */
   z-index: 1000;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -307,6 +319,7 @@ footer{
   width: auto;
   overflow: hidden;
   display: block;
+  /* text-align: center; */
   /* border: 1px solid black; */
 }
 
@@ -314,9 +327,10 @@ footer{
   border: 2px solid orange;
   background-color: #f4ce99;
   font-weight: bold;
-  width: 60%;
+  width: 50%;
   float: left;
   text-indent: 20px;
+  padding: 2%;
 }
 
 .aboutSect1_links{
@@ -342,6 +356,11 @@ footer{
   font-size: 20px;
   color: #f4ce99;
   background-color: black;
+}
+
+.aboutSect1_links p:hover{
+  color: black;
+  background-color: white;
 }
 
 #aboutSect2_header{
@@ -390,6 +409,11 @@ footer{
   background-color: black;
 }
 
+.aboutSection2 a p:hover{
+  color: black;
+  background-color: white;
+}
+
 .inline_link{
   float: right;
   display: block;
@@ -402,11 +426,9 @@ footer{
   background-color: #77b2b2;
 }
 
-#para2{
-  background-color: #d7d7d7;
-}
 
-#para3{
+
+#para2{
   background-color: #ab96c3;
 }
 
@@ -438,6 +460,11 @@ footer{
   color: white;
   background-color: black;
   padding: 20px;
+}
+
+#lastlink:hover{
+  background-color: white;
+  color: black;
 }
 
 .resourcesMain{
