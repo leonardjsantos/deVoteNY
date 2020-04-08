@@ -163,6 +163,34 @@ header img{
   margin-bottom: 10px;
 }
 
+.educationResourcesButtons{
+  overflow: hidden;
+}
+
+.educationResourcesButtons a{
+  text-decoration: none;
+  color: black;
+}
+
+.educationResourcesButtons li{
+  list-style-type: none;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  width: 26%;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding: 1.5%;
+  /* height: 100px; */
+  /* vertical-align: middle; */
+}
+
+.educationResourcesButtons li:hover{
+  background-color: black;
+  color: white;
+}
+
 footer{
   display: block;
   /* width: 100%; */
