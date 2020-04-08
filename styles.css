@@ -204,7 +204,7 @@ footer{
 }
 
 .act_subheader p{
-  color: black;
+  color: white;
   line-height: 150%;
 }
 
@@ -214,6 +214,8 @@ footer{
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+
 
 .act_section{
   display: block;
@@ -227,7 +229,7 @@ footer{
   color: white;
   font-weight: bold;
   margin-bottom: 2%;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .act_section h4{
@@ -239,7 +241,7 @@ footer{
 
 .act_section p{
   line-height: 150%;
-  color: black;
+  color: white;
 }
 .find_left{
   float: left;
@@ -264,6 +266,8 @@ footer{
 
 .actScript p{
   margin-bottom: 2%;
+  color: black;
+
 }
 
 /* about page */
@@ -496,6 +500,18 @@ footer{
   text-align: center;
 }
 
+.flierButton{
+  overflow: hidden;
+  border: 2px solid black;
+  width: 10%;
+  margin: auto;
+  font-size: 20px;
+  padding: 2%;
+}
+
+
+
+
 #ppflyer{
   width: 100%;
 }
@@ -541,55 +557,164 @@ footer{
   color: white;
 }
 
+/* UPDATES PAGE */
+
 .updatesMain{
-  width: auto;
   display: block;
+}
+
+.updatesTimeDate{
+  display: block;
+  /* background-color: red; */
+  overflow: hidden;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: 900;
+}
+
+#updateDate{
+  float:left;
+}
+
+#updateName{
+  float: right;
+}
+
+.updatesSupTitle{
+  margin-top: 0px;
+  margin-bottom: 2%;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.updatesTitle{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.updatesLeft{
+  float: left;
+  border-right: 1px solid red;
+  width: 75%;
+  text-align: center;
   overflow: hidden;
 }
 
-.updates_section{
-  width: auto;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
+.updatesRight{
+  /* float: right; */
+  width: 20%;
+  overflow: hidden;
+  /* border: 1px solid blue; */
+  padding-left: 2%;
 }
 
-.updates_section a{
-  text-decoration: none;
+.updatesContainer{
+  width: 100%;
+  margin-bottom: 2%;
+  overflow: hidden;
+  /* border: 1px solid green; */
+
+}
+
+.updateBlock{
+  width:42%;
+  overflow: hidden;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.updateHeader{
+  width: inherit;
   color: white;
-
+  margin-bottom: 1%;
 }
 
-.updates_section p{
-  background-color: black;
-  /* margin: auto; */
-  width: 10%;
+.billUpdate{
+  background-color: #4e078c;
+}
+
+.billArticle{
+  background-color: #27666d;
+}
+
+#articleColor{
+  background-color: #27666d;
+  border: 1px solid #27666d;
+}
+
+#articleColor:hover{
+  color: #27666d;
+  background-color: white;
+}
+
+.billNews{
+  background-color: grey;
+}
+
+#newsColor{
+  background-color: grey;
+  border: 1px solid grey;
+}
+
+#articleColor:hover{
+  color: grey;
+  background-color: white;
+}
+
+.updateBlock h3{
+  text-align: left;
+  font-size: 30px;
+  padding: 2%;
+}
+
+.updateBlock img{
+  width: 90%;
   text-align: center;
+}
+
+.updateCaption{
+  text-align: right;
+  font-style: italic;
+  padding-right: 2px;
+  margin-bottom: 1%;
+}
+
+.updateArticle{
+  text-align: left;
+  font-size: 28px;
+}
+
+.updateInfo{
   margin-top: 2%;
-  padding: 0.5%;
+  text-align: left;
+  font-size: 20px;
 }
 
-.updatesSection1{
-  background-color: #47a3a4;
+.updateLink{
+  text-align: right;
 }
 
-.updatesSection2{
-  background-color: #aaaaaa;
+.updateLink p{
+  background-color: #4e078c;
+  float: right;
+  width: 20%;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid #4e078c;
 }
 
-.updatesSection3{
-  background-color: #41497d
-}
-
-.updatesSection3 h1{
-  color: #e5c9a5;
-}
-
-.updatesSection3 h3{
-  margin-top: 2%;
-  padding-top: 2%;
-  font-size: 20px
+.updateLink p:hover{
+  background-color: white;
+  color: #4e078c;
 }
 
 @media screen and (max-width: 800px) {
