@@ -80,6 +80,31 @@ header img{
   padding-bottom: 2%;
 }
 
+.moveRight{
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  position: relative;
+  animation-name: movingright;
+  animation-duration: 3s;
+}
+
+.moveLeft{
+  position: relative;
+  animation-name: movingleft;
+  animation-duration: 3s;
+}
+
+@keyframes movingright {
+  0%   {left:-200px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+@keyframes movingleft {
+  0%   {right:-200px; top:0px;}
+  100%  {right:0px; top:0px;}
+}
+
 .nav li:hover{
   background-color: white;
   color: black;
