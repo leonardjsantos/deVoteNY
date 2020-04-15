@@ -518,10 +518,10 @@ footer{
 .aboutSection2 h3{
   background-color: #d9a532;
   color: white;
-  font-size: 30px;
-  padding: 5px;
+  font-size: 80px;
+  padding: 10px;
   border-radius: 5px;
-  width: 63%;
+  width: auto;
   margin-bottom: 2%;
   border: 1px solid black;
 }
