@@ -984,6 +984,83 @@ a{
     width: 30%;
   }
 
+  .act_subtitle{
+    font-size: 40px;
+  }
+
+  .act_subheader h2{
+    font-size: 20px;
+  }
+
+  .act_section{
+    margin-top: 10px;
+  }
+
+  .find_left{
+    float: none;
+    width: 90%;
+  }
+
+  .find_right{
+    float: none;
+    text-align: center;
+
+  }
+
+  .find_right p{
+    width: 90%;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .updatesTimeDate{
+    font-size: 13px;
+  }
+
+  .updatesSupTitle{
+    font-size: 13px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .updatesLeft{
+    float: none;
+    border: none;
+    width: 95%;
+  }
+
+  .updateBlock h3{
+    font-size: 20px;
+    width: auto;
+  }
+
+  .updateCaption{
+    font-size: 10px;
+  }
+
+  .updateArticle{
+    font-size: 15px;
+  }
+
+  .updateInfo{
+    font-size: 12px;
+  }
+
+  .updateLink p{
+    margin-top: 3%;
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .updatesRight{
+    width: 95%;
+    margin: auto;
+  }
+
 }
 
 /* full desktop */
