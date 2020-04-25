@@ -68,7 +68,8 @@ header img{
   float: left;
   background-color: #4e078c;
   color: white;
-  font-size: 30px;
+  font-size: 26px;
+  overflow: hidden;
   width: 22%;
   margin-left: 10px;
   height: 40px;
@@ -867,6 +868,10 @@ a{
   color: #4e078c;
 }
 
+.buttonRow{
+
+}
+
 /* @media screen and (max-width: 800px) {
   body{
     margin: 0;
@@ -882,6 +887,27 @@ a{
   }
 
 } */
+@media screen and (max-width: 1020px) {
+  .nav li{
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+  }
+  .center{
+      padding-top: 0;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+  }
+
+  .top{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+}
+
+
 
 /* resize window - nav bar under full title screen */
 @media screen and (max-width: 420px) {
@@ -916,6 +942,8 @@ a{
     margin-right: 6%;
     margin-bottom: 2%;
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .index_links{
@@ -1059,6 +1087,34 @@ a{
   .updatesRight{
     width: 95%;
     margin: auto;
+  }
+
+  .educationResourcesButtons{
+    width: 100%;
+    text-align: center;
+  }
+
+  .educationResourcesButtons li{
+    width: 40%;
+    font-size: 12px;
+  }
+
+  .middleBlock{
+    height: 45px;
+  }
+
+  .initiativesButtons li{
+    width: 40%;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .initiativesButtons li.topBlockInitiative{
+    height: 45px;
+  }
+
+  .organization_logo{
+    width: 45%;
   }
 
 }
