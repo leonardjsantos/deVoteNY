@@ -887,6 +887,8 @@ a{
   }
 
 } */
+
+
 @media screen and (max-width: 1020px) {
   .nav li{
     width: 45%;
@@ -904,6 +906,14 @@ a{
   .top{
     padding-bottom: 0px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .educationResourcesButtons li{
+    width: 40%;
+    height: 50px;
+    font-size: 13px;
   }
 }
 
@@ -1088,6 +1098,8 @@ a{
     width: 95%;
     margin: auto;
   }
+
+
 
   .educationResourcesButtons{
     width: 100%;
